@@ -15,9 +15,9 @@ int main() {
     int arr[n];
     int arr2[n];
   
-    for (int i=0; i<n; i++){
-        cin >> arr[i];
-         arr2[(n-i-1)]=arr[i];
+    for (int j=0; j<n; j++){
+        cin >> arr[j];
+         arr2[(n-j-1)]=arr[j];
     } 
     
     for (int i=0;i<n;i++){
