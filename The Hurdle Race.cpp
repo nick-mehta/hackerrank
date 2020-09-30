@@ -13,7 +13,7 @@ int main(){
         cin>>arr[i];
         if(arr[i]>=a){
             a=arr[i];
-        }
+        }//
     }
 
     if (a<=k){
